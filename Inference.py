@@ -1,3 +1,5 @@
+#I'm using flask for making this as an endpoint and then inferencing it. 
+
 from flask import Flask, request, jsonify
 from transformers import BertTokenizer, BertForSequenceClassification
 import torch
